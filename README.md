@@ -1,4 +1,6 @@
 # Rock Paper Scissors Game
+![Rock Paper Scissors Game](https://i.ibb.co.com/3FScMhr/rockpaperscissors.png)
+
 
 Ini adalah mini project permainan **Rock Paper Scissors** (Batu Gunting Kertas) yang dibuat menggunakan **HTML**, **CSS**, dan **JavaScript**. Project ini menampilkan interaksi seru antara pemain dan komputer (bot), dengan efek visual yang menarik ketika bot melakukan pilihannya.
 
