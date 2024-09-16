@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+      * {
+        margin: 0;
+        font-family: "Pixelify Sans", system-ui;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #fff;
+      }
+
+      body {
+        background-color: black;
+        padding: 0 50px;
+        padding-top: 60px;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 60px;
+      }
+
+      .player-container{
+        border: 1px solid white;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 0;
+      }
+
+      img.icons{
+        width: 100px;
+      }
+
+      
+
+      .selectBox:hover{
+        border: 3px solid white;
+        background: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+      }
+
+      
+
+      .selectBox{
+        border: 2px solid white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <h1>Rock Paper Scissors</h1>
+    <br><br><br>
+    <!-- Pilihan Computer -->
+    
+      <div class="player-container">
+        <div>
+          <img id="botPick" class="icons" src="img/rock.svg" />
+        </div>
+      </div>
+
+      <!-- Status Menang -->
+      <div class="player-container">
+        <h2 id="status">Pick one</h2>
+      </div>
+
+      <!-- Pilihan Player -->
+      
+
+      <div class="player-container">
+        <div id="playerRock" class="selectBox" onclick="playerPick(0)">
+          <img class="icons" src="img/rock.svg" />
+        </div>
+
+        <div id="playerPaper" class="selectBox " onclick="playerPick(1)">
+          <img class="icons" src="img/paper.svg" />
+        </div>
+
+        <div id="playerScissors" class="selectBox" onclick="playerPick(2)">
+          <img class="icons" src="img/scissors.svg" />
+        </div>
+      </div>
+      
+      <script src="app.js"></script>
+  </body>
+</html>
