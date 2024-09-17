@@ -44,4 +44,4 @@ Ini adalah mini project permainan **Rock Paper Scissors** (Batu Gunting Kertas) 
 1. Clone repository ini ke dalam local machine kamu:
 
 ```bash
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/CecepGanteng/RockPaperScissors.git
